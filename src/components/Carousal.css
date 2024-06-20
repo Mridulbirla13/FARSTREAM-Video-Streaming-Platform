@@ -1,0 +1,36 @@
+.carousal-item{
+    background: url('../assets/1.jpg') center/cover no-repeat;
+    width:100vw;
+    height: 60px;
+}
+.billboard-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: "Oswald", sans-serif;
+
+}
+.billHead{
+    font-size: 3.4rem;
+    margin:10px;
+}
+.billbutton{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.billbutton button{
+    border: 2px solid transparent;
+    margin: 1rem;
+    padding:0.5rem;
+    cursor: pointer;
+    display:block;
+    mix-blend-mode:screen;
+}
+.billbutton button:hover{
+    border: 2px solid white;
+    color:white;
+    background-color: transparent;
+}

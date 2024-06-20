@@ -1,0 +1,81 @@
+.Mcontainer{
+    margin:0;
+    padding:0;
+    background-color: black;
+    padding:5%;
+}
+.Mcontainer h2{
+    font-size:120%;
+    color:white;
+    font-family: 'Oswald';
+    margin:1.25rem;
+    margin-left: 9rem;
+}
+
+.slider{
+    position: relative;
+    left:10%;
+    top:60%;
+    width:90%;
+    height: 12.5rem;
+    overflow:hidden;
+
+}
+
+.slider-inner{
+    position:absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width:177.6%;
+    display:grid;
+    grid-template-columns: repeat(7,1fr);
+    gap:5px;
+    pointer-events:none;
+    transition:0s ease-in;
+}
+.slider-innera{
+
+}
+.slide-img {
+    background-color:white;
+    height: 100%;
+}
+.slide{
+    cursor:pointer;
+}
+
+.one{
+    background: url('../assets/m1.jpg') center/cover no-repeat;
+    
+}
+
+.two{
+    background: url('../assets/m2.jpg') center/cover no-repeat;
+}
+
+.three{
+    background: url('../assets/m3.jpg') center/cover no-repeat;
+}
+
+.four{
+    background: url('../assets/m4.jpg') center/cover no-repeat;
+}
+.five{
+    background: url('../assets/m5.jpg') center/cover no-repeat;
+}
+.six{
+    background: url('../assets/m6.jpg') center/cover no-repeat;
+}
+.seven{
+    background: url('../assets/m7.jpg') center/cover no-repeat;
+}
+.eight{
+    background: url('../assets/m8.jpg') center/cover no-repeat;
+}
+.nine{
+    background: url('../assets/m9.jpg') center/cover no-repeat;
+}
+.ten{
+    background: url('../assets/m10.jpg') center/cover no-repeat;
+}

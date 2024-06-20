@@ -1,0 +1,41 @@
+.movie-row h2{
+    font-family: "Oswald", sans-serif;
+    font-size: 1.25rem;
+    color:white;
+    margin:0.93rem;
+    text-align: left;
+}
+.movie-row{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.karousel {
+    height: 15.625rem;
+    width:80%;
+    position:relative;
+}
+.karousel .link .switchLeft,
+.karousel .link .switchRight{
+    color:white;
+    font-weight: bold;
+    height: 100%;
+    width: 2.81rem;
+    line-height: 15.625rem;
+    font-size:1.5625rem;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    top:0;
+    z-index:3;
+    cursor: pointer;
+}
+
+.karousel .link .switchLeft{
+    position: absolute;
+    left: -3.125rem;
+}
+.karousel .link .switchRight{
+    position: absolute;
+    right: -3.125rem;
+}

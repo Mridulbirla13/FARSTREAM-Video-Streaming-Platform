@@ -12,7 +12,7 @@ const Carousal = () => {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src="/assets/1.jpg" className="d-block w-100" alt="Slide 1"/>
+                    <img src={`${process.env.PUBLIC_URL}/assets/1.jpg`} className="d-block w-100" alt="Slide 1"/>
                     <div className="carousel-caption d-none d-md-block">
                         <div className="billboard-content">
                             <h1 className="billHead">Stranger Things</h1>
@@ -24,7 +24,7 @@ const Carousal = () => {
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img src="/assets/2.jpg" className="d-block w-100" alt="Slide 2"/>
+                    <img src={`${process.env.PUBLIC_URL}/assets/2.jpg`} className="d-block w-100" alt="Slide 2"/>
                     <div className="carousel-caption d-none d-md-block">
                     <div className="billboard-content">
                             <h1 className="billHead">Deadpool & Wolverine</h1>
@@ -36,7 +36,7 @@ const Carousal = () => {
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img src="/assets/3.jpg" className="d-block w-100" alt="Slide 3"/>
+                    <img src={`${process.env.PUBLIC_URL}/assets/3.jpg`} className="d-block w-100" alt="Slide 3"/>
                     <div className="carousel-caption d-none d-md-block">
                     <div className="billboard-content">
                             <h1 className="billHead">JOKER</h1>
@@ -48,7 +48,7 @@ const Carousal = () => {
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img src="/assets/4.jpg" className="d-block w-100" alt="Slide 3"/>
+                    <img src={`${process.env.PUBLIC_URL}/assets/4.jpg`} className="d-block w-100" alt="Slide 3"/>
                     <div className="carousel-caption d-none d-md-block">
                     <div className="billboard-content">
                             <h1 className="billHead">Insidious: The Red Door</h1>

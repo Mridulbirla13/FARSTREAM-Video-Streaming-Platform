@@ -58,8 +58,8 @@ function MovieSlider({ headerText, images }) {
       >
         <div className="slider-inner" ref={innerSliderRef}>
           {images.map((image, index) => (
-            <a className='slide' href="" key={index}>
-              <div className="slide-img" style={{ backgroundImage: `url(${image})` }}></div>
+            <a className='slide' href="#" key={index}>
+              <div className="slide-img" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/${image})` }}></div>
             </a>
           ))}
         </div>

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FARSTREAM-Video-Streaming-Platform/static/css/main.d383887e.css",
-    "main.js": "/FARSTREAM-Video-Streaming-Platform/static/js/main.83eac02f.js",
+    "main.js": "/FARSTREAM-Video-Streaming-Platform/static/js/main.9c8fe7e4.js",
     "static/js/453.422313ab.chunk.js": "/FARSTREAM-Video-Streaming-Platform/static/js/453.422313ab.chunk.js",
     "static/media/1.jpg": "/FARSTREAM-Video-Streaming-Platform/static/media/1.716003bc16d3c9d712fc.jpg",
     "static/media/m2.jpg": "/FARSTREAM-Video-Streaming-Platform/static/media/m2.fef0998394380cf4ad15.jpg",
@@ -16,11 +16,11 @@
     "static/media/m6.jpg": "/FARSTREAM-Video-Streaming-Platform/static/media/m6.fae2bcdbfd62e66a9661.jpg",
     "index.html": "/FARSTREAM-Video-Streaming-Platform/index.html",
     "main.d383887e.css.map": "/FARSTREAM-Video-Streaming-Platform/static/css/main.d383887e.css.map",
-    "main.83eac02f.js.map": "/FARSTREAM-Video-Streaming-Platform/static/js/main.83eac02f.js.map",
+    "main.9c8fe7e4.js.map": "/FARSTREAM-Video-Streaming-Platform/static/js/main.9c8fe7e4.js.map",
     "453.422313ab.chunk.js.map": "/FARSTREAM-Video-Streaming-Platform/static/js/453.422313ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d383887e.css",
-    "static/js/main.83eac02f.js"
+    "static/js/main.9c8fe7e4.js"
   ]
 }
